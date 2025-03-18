@@ -36,7 +36,6 @@ child of nav */
 nav a {
     color: white;
     display: block;
-    padding: 20;
 }
 
 h1 {
@@ -48,7 +47,6 @@ main img {
     height: auto;
     margin-left: 20px;
     padding: 2px;
-    padding: black;
     border: 1px solid black;
     box-shadow: 0 0 30px gray;
 }
