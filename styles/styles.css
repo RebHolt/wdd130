@@ -35,8 +35,8 @@ aside img {
 child of nav */
 nav a {
     color: white;
-    display: block;
     padding: 20px;
+    display: block;
 }
 
 h1 {
