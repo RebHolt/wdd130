@@ -1,0 +1,13 @@
+:root {
+    --heading-font: "Bevan", serif;
+    --parag-font: "Oldenburg", serif;
+}
+
+/* ----- Styles ------ */
+body h1 {
+    font-family: var(--heading-font);
+}
+
+body p {
+    font-family: var(--parag-font);
+}

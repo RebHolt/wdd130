@@ -1,10 +1,15 @@
+:root {
+    --border-color: black;
+    --shadow-color: gray;
+}
+
 main {
     max-width: 840px;
 }
 
 footer {
     margin-top: 20px;
-    border-top: 1px dotted black;
+    border-top: 1px dotted var(--border-color);
     text-align: center;
 }
 
@@ -17,7 +22,7 @@ aside {
     width: 400px;
     margin: 15px;
     margin-top: 25px;
-    border: 5px solid black;
+    border: 5px solid var(--border-color);
     padding: 20px;
 
     background-color: lightblue;
@@ -28,7 +33,7 @@ aside img {
     width: 200px;
     height: auto;
     margin-bottom: 10px;
-    box-shadow: 10px 10px 30px gray;
+    box-shadow: 10px 10px 30px var(--shadow-color);
 }
 
 /* Selects all element that are 
@@ -48,8 +53,8 @@ main img {
     height: auto;
     margin-left: 20px;
     padding: 2px;
-    border: 1px solid black;
-    box-shadow: 0 0 30px gray;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 0 30px var(--shadow-color);
 }
 
 p {
