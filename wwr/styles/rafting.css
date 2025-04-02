@@ -186,6 +186,10 @@ footer p {
     padding: 1rem 0;
 }
 
+.hero-blurb p {
+    font-size: large;
+}
+
 .history {
     padding: 1rem;
 }
