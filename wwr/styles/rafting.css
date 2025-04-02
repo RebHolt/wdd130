@@ -235,5 +235,6 @@ header {
 }
 
 footer {
+    color: white;
     background-color: rgb(var(--primary-color));
 }
