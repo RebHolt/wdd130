@@ -1,0 +1,180 @@
+:root {
+    --primary-color: 64, 112, 118;
+    --secondary-color: 140, 186, 128;
+    --accent-1: 181, 32, 27;
+    --accent-2: 223, 154, 87;
+    --gray: 133, 132, 132;
+
+    --heading-font: "Bevan", serif;
+    --text-font: "Oldenburg", serif;
+
+    --section-padding: 1rem;
+    --hero-width: 80%;
+
+    --middle-margin: 1%;
+
+    --inner-margin: 5%;
+
+}
+
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+#contact-main {
+    display: flex;
+    flex-direction: row;
+}
+
+/* --- Divs --- */
+
+#contact-main div {
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    padding: 1rem;
+    background-color: rgb(var(--primary-color));
+}
+
+.info {
+    margin-right: var(--middle-margin);
+    width: 80%;
+}
+
+.contact {
+    margin-left: var(--middle-margin);
+    width: 80%;
+}
+
+/* --- Sections --- */
+.location {
+    background-color: rgb(var(--secondary-color));
+    padding: var(--inner-margin);
+    margin-bottom: var(--inner-margin);
+
+}
+
+.people {
+    background-color: rgb(var(--secondary-color));
+    margin-top: var(--inner-margin);
+    padding: var(--section-padding);
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq {
+    background-color: rgb(var(--secondary-color));
+    margin-top: var(--inner-margin);
+    padding: var(--section-padding);
+}
+
+/* --- Form --- */
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(var(--secondary-color));
+    padding: var(--inner-margin);
+    background-color: rgb(var(--secondary-color));
+    /* border: 30px transparent solid; */
+}
+
+input,
+textarea {
+    color: gray;
+    font-size: 15px;
+}
+
+input,
+textarea,
+label {
+    font-family: var(--text-font);
+}
+
+form h2 {
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 99%;
+    max-width: 99%;
+    margin-top: var(--section-padding);
+}
+
+label {
+    margin: .3rem;
+}
+
+input[type="radio"] {
+    transform: scale(1.2);
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    width: 5rem;
+    background-color: rgb(var(--accent-2));
+    color: black;
+}
+
+---
+
+/* --- Misc --- */
+h2 {
+    font-size: 1rem;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 99%;
+
+    margin-bottom: var(--inner-margin);
+
+    aspect-ratio: 2 / 1.5;
+}
+
+.location p {
+    margin: 0 auto;
+    display: block;
+    /* margin-bottom: var(--inner-margin); */
+}
+
+.people img {
+    place-self: center;
+    max-width: 300px;
+}
+
+.people figcaption {
+    place-self: center;
+    /* text-align: left; */
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: larger;
+}
+
+
+h2,
+.faq h3 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-family: var(--heading-font);
+    text-align: left;
+}
+
+.faq p {
+    padding-bottom: 1.6rem;
+}

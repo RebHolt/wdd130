@@ -24,8 +24,13 @@ figcaption {
 }
 
 html {
-    max-width: 800px;
+    /* max-width: 800px; */
+    margin: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: black double;
+
+    min-width: 507px;
 }
 
 img {
@@ -34,6 +39,7 @@ img {
 }
 
 .hack {
+    position: absolute;
     font-size: 0;
     color: transparent;
 }
@@ -62,6 +68,7 @@ nav a {
 
 header img {
     margin: auto;
+    width: auto;
 }
 
 
@@ -160,11 +167,16 @@ footer {
 }
 
 footer p {
+    font-size: 1.5rem;
     /* background-color: black; */
     align-self: center;
     grid-column: 2/3;
     padding-bottom: 1rem;
     padding-top: 1rem;
+}
+
+footer img {
+    max-width: 130px
 }
 
 .socials {
