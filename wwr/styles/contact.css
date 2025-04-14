@@ -17,8 +17,6 @@
 
 }
 
-
-
 img {
     width: 100%;
     height: auto;
@@ -108,7 +106,9 @@ input[type="text"] {
 textarea {
     width: 99%;
     max-width: 99%;
+    height: 8.2rem;
     margin-top: var(--section-padding);
+
 }
 
 label {
@@ -185,7 +185,3 @@ label[for="question"] {
     font-size: small;
     color: transparent;
 }
-
-/* label {
-    color: white;
-} */

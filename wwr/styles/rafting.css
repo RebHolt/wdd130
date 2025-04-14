@@ -59,11 +59,11 @@ header nav {
 }
 
 nav a {
-    color: black;
-    text-decoration: none;
     background-color: beige;
     padding: 1rem 2rem;
     border: solid black 1px;
+    text-decoration: none;
+    color: black;
 }
 
 header img {
