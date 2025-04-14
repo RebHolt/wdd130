@@ -17,7 +17,6 @@
 
 }
 
-
 img {
     width: 100%;
     height: auto;
@@ -119,6 +118,18 @@ label {
 input[type="radio"] {
     transform: scale(1.2);
 }
+
+button {
+    font-size: medium;
+    font-family: var(--text-font);
+    margin-top: 15px;
+    width: 5rem;
+    height: 2rem;
+    background-color: rgb(var(--accent-2));
+    color: black;
+}
+
+
 
 /* --- Misc --- */
 h2 {
