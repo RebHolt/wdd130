@@ -178,3 +178,14 @@ h3 {
 .faq p {
     padding-bottom: 1.6rem;
 }
+
+label[for="name"],
+label[for="email"],
+label[for="question"] {
+    font-size: small;
+    color: transparent;
+}
+
+/* label {
+    color: white;
+} */
