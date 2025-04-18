@@ -1,0 +1,148 @@
+:root {
+    --primary-color: 64, 112, 118;
+    --secondary-color: 140, 186, 128;
+    --accent-1: 181, 32, 27;
+    --accent-2: 223, 154, 87;
+    --gray: 133, 132, 132;
+
+    --heading-font: "Bevan", serif;
+    --text-font: "Oldenburg", serif;
+
+    --small-padding: 1rem;
+    --large-padding: 2rem;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+div {
+    /* overflow: auto; */
+    min-height: 20px;
+}
+
+.outer {
+    background-color: rgb(var(--primary-color));
+    padding: 20px 0;
+    margin-top: var(--large-padding);
+
+}
+
+.inner {
+    background-color: rgb(var(--secondary-color));
+    margin: 0 var(--small-padding);
+    padding: var(--small-padding);
+}
+
+.bottom {
+    margin-bottom: var(--large-padding);
+}
+
+/* -------- */
+.group-1 {
+    display: flex;
+    grid-template-columns: 1fr 2fr;
+}
+
+.action {
+    margin: var(--large-padding) var(--small-padding) 0 0;
+    background-color: rgb(var(--secondary-color));
+}
+
+.group-1 .inner {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+}
+
+.left {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.right {
+    margin: var(--small-padding) 0;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.right p,
+.right h1,
+.right h2,
+.right h3 {
+    margin-left: var(--large-padding);
+}
+
+.left p,
+.left h1,
+.left h2,
+.left h3 {
+    margin-right: var(--small-padding);
+}
+
+.inner h1 {
+    font-size: 19px;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: var(--large-padding);
+}
+
+.button {
+    background-color: rgb(var(--accent-2));
+    border: solid black 2px;
+    color: black;
+    border-radius: 7px;
+
+    width: fit-content;
+    padding: 10px;
+
+}
+
+.group-1 a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.action p {
+    text-align: left;
+}
+
+.group-2 {
+    text-align: center;
+    align-items: center;
+}
+
+table {
+    display: inline;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: .5rem;
+    border-left: 2px solid black;
+
+}
+
+.horizontal {
+    border-bottom: 2px black solid;
+}
+
+.erase {
+    border-left: 2px solid rgb(var(--secondary-color));
+}
